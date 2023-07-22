@@ -1,0 +1,170 @@
+/* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL */
+/* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL */
+/* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL *//* GLOBAL */
+*{
+    text-align: center;
+    font-family: monospace;
+}
+
+/* SCROLLBAR *//* SCROLLBAR *//* SCROLLBAR *//* SCROLLBAR *//* SCROLLBAR */
+/* SCROLLBAR *//* SCROLLBAR *//* SCROLLBAR *//* SCROLLBAR *//* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff; 
+    border-radius: 4px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cccccc; 
+    border-radius: 4px;
+  }
+  
+/* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY */
+/* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY */
+body{
+    background-color: blanchedalmond;
+}
+main{
+    background-color: wheat;
+    border-radius: 14px;
+    border-left: 3px solid brown;
+    border-right: 3px solid brown;
+    box-shadow: 1px 0 6px -4px rgb(117, 97, 66), -1px 0 6px -4px rgb(117, 97, 66);
+    margin: 40px auto 40px;
+    padding: 30px 0 30px;
+    width: 60%;
+}
+section{
+    background-color: wheat;
+    border-radius: 14px;
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
+    box-shadow: 1px 0 6px -4px rgb(117, 97, 66), -1px 0 6px -4px rgb(117, 97, 66);
+    margin: 40px auto 40px;
+    width: 90%;
+}
+section:hover{
+    transform: scale(1.05, 1.12);
+}
+input{
+    border: 0.1px solid ;
+    border-radius: 25px;
+    margin: 15px;
+    height: 35px;
+    width: 45%;
+    background-color: tan ;
+    font-family: monospace;
+}
+button{
+    color: white;
+    background-color: brown;
+    border: 0;
+    border-radius: 25px;
+    margin: 15px;
+    height: 30px;
+    width: 20%;
+}
+
+/* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT */
+/* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT */
+@media only screen and (max-width: 600px) {
+    main{
+        background-color: wheat;
+        border-radius: 14px;
+        border-left: 3px solid brown;
+        border-right: 3px solid brown;
+        box-shadow: 1px 0 6px -4px rgb(117, 97, 66), -1px 0 6px -4px rgb(117, 97, 66);
+        margin: 40px auto 40px;
+        padding: 30px 0 30px;
+        width: 90%;
+    }
+    section{
+        background-color: wheat;
+        border-radius: 14px;
+        border-top: 3px solid brown;
+        border-bottom: 3px solid brown;
+        box-shadow: 1px 0 6px -4px rgb(117, 97, 66), -1px 0 6px -4px rgb(117, 97, 66);
+        margin: 40px auto 0;
+        width: 90%;
+    }
+    h3{
+        margin: auto;
+        width: 90%;
+    }
+    h4{
+        margin: auto;
+        width: 90%;
+    }
+    p{
+        margin: auto;
+        width: 90%;
+    }
+    input{
+        border: 0.1px solid black;
+        border-radius: 25px;
+        margin: 15px;
+        height: 35px;
+        width: 80%;
+        background-color: tan ;
+        font-family: monospace;
+    }
+    button{
+        color: white;
+        background-color: brown;
+        border: 0;
+        border-radius: 25px;
+        margin: 15px;
+        height: 30px;
+        width: 50%;
+    }
+}
+
+/* TABLET DEVICE VIEWPORT *//* TABLET DEVICE VIEWPORT *//* TABLET DEVICE VIEWPORT *//* TABLET DEVICE VIEWPORT */
+/* TABLET DEVICE VIEWPORT *//* TABLET DEVICE VIEWPORT *//* TABLET DEVICE VIEWPORT *//* TABLET DEVICE VIEWPORT */
+@media only screen and (max-width: 992px) {
+    main{
+        background-color: wheat;
+        border-radius: 14px;
+        border-left: 3px solid brown;
+        border-right: 3px solid brown;
+        box-shadow: 1px 0 6px -4px rgb(117, 97, 66), -1px 0 6px -4px rgb(117, 97, 66);
+        margin: 40px auto 40px;
+        padding: 30px 0 30px;
+        width: 75%;
+    }
+    h3{
+        margin: auto;
+        width: 90%;
+    }
+    h4{
+        margin: auto;
+        width: 90%;
+    }
+    p{
+        margin: auto;
+        width: 90%;
+    }
+    input{
+        border: 0.1px solid black;
+        border-radius: 25px;
+        margin: 15px;
+        height: 35px;
+        width: 75%;
+        background-color: tan ;
+        font-family: monospace;
+    }
+    button{
+        color: white;
+        background-color: brown;
+        border: 0;
+        border-radius: 25px;
+        margin: 15px;
+        height: 30px;
+        width: 50%;
+    }
+}
