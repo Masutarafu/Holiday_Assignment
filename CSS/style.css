@@ -69,6 +69,13 @@ button{
     height: 30px;
     width: 20%;
 }
+footer h4{
+  margin-top: 5%;
+  color: firebrick;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+}
 
 /* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT */
 /* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT *//* MOBILE PHONE VIEWPORT */
